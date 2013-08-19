@@ -21,6 +21,10 @@ find_package(cvBlob REQUIRED)
 file(GLOB SRCS
     src/*.c
     src/*.cpp
+    src/TUIO/*.cpp
+    src/osc/*.cpp
+    src/ip/*.cpp
+    src/ip/posix/*.cpp
 )
 message("DEBUG: " ${SRCS})
 # headers (let them show up in the IDEs)
