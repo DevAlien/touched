@@ -191,7 +191,7 @@ int FindBlob::loadVariables() {
     cvMoveWindow("Webcam Preview", 200, 100);
 
     capture = cvCaptureFromCAM(0);
-    setCam(1);
+    setCam(0);
 
     if (image == NULL) {
         return -1;
